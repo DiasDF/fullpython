@@ -2,87 +2,72 @@
 
 ## Configurar o GIT
 
-No terminal, execute os comandos:
-
-```Git Config
+No terminal, execute os comandos:  
+Git Config
+```
    git config --global user.name “Seu nome”
    git config --global user.email “Seu e-mail”
 ```
 
-```
-
-```
-
 # Criar repositório
 
-No terminal, dentro da pasta do projeto, execute o comando:
-
-```Git Init
+No terminal, dentro da pasta do projeto, execute o comando:  
+Git Init
+```
    git init
 ```
 
 ## COMANDOS GIT
 Podemos ver os arquivos que estão sendo considerados pelo Git, que estão no stage, através do comando:
-
-```Git Status
+Git Status
+```
    git status
 ```
 
 Para adicionar um arquivo ao stage do Git, dizer ao Git que ele deve considerar o arquivo, execute o comando:
-
-```Git Add
+Git Add
+```
    git add nome_do_arquivo
 ```
 
 ou
 
+### Com um espaço e ponto ao final: ele adicionará todos os arquivos do diretório ao stage
 ```
-
+   git add .
 ```
-
-git add .
-#Com um espaço e ponto ao final: ele adicionará todos os arquivos do diretório ao stage
 
 Para remover o arquivo do stage:
-
 ```
-
+   git rm --cached nome_do_arquivo
 ```
-
-git rm --cached nome_do_arquivo
 
 Podemos salvar a alteração e criar um commit:
-
+```
+   git commit -m "minha mensagem entre aspas duplas"
 ```
 
-```
-
-git commit -m "minha mensagem entre aspas duplas"
 
 Podemos adicionar o arquivo ao stage e já salvar a alteração, trata-se da execução do comando:
-
+```git commit -am "minha mensagem"
 ```
 
-```
-
-git commit -am "minha mensagem"
 
 Padrões para nomear commits
 O padrão para escrever as mensagens para os commits é: Chore; Fix; Feat; Docs
 
 \*Chore: usado para pequenas tarefas:
-
+```git commit -m “chore: removendo arquivo.txt”
 ```
 
-```
-
-git commit -m “chore: removendo arquivo.txt”
 
 \*Fix: correções:
-git commit -m “fix: correção no cálculo de médias”
+```git commit -m “fix: correção no cálculo de médias”
+```
 
 \*Feat: inclusão de funcionalidade:
-git commit -m “feat: inclusão de função para calcular mediana”
+```git commit -m “feat: inclusão de função para calcular mediana”
+```
 
 \*Docs: atualização de documentação:
 git commit -m “atualizando o changelog.md”
