@@ -17,7 +17,7 @@ _   underscore
 .   dot
 !   exclamation mark
 ```
-# Terminal MacOs: OBS use o botão "command" no lugar de "ctrl"
+## Terminal MacOs: OBS use o botão "command" no lugar de "ctrl"
 
 "dir" ou "ls" - Listagem de arquivos.
 
@@ -41,18 +41,6 @@ Ex. C:\Users\gianc\Pasta_exemplo> echo "olá" > arquivo.txt
 
 "rm -r" - Para deletar tanto o arquivo quanto a pasta.
 
-"git config --global user.name "nome" - Para configuração básica do Git.
-
-"git status" - Para saber o status do projeto.
-
-"git add" - Adiciona esse arquivo para o Stage (carrinho, arquivos add com git add que estão “verdes” prontos para o commit).
-
-"git rm --cached - Remover arquivo do Stage (git add .) do Git .
-
-"git add ." - Adiciona todos arquivos para o Stage.
-
-"git commit -am “Texto”. Faz o add e o commit ao mesmo tempo.
-
 CRIAR A PASTA GIT NA RAIZ HOME
 “cd ~ “
 “mkdir gitpython”
@@ -64,6 +52,27 @@ CRIAR A PASTA GIT NA RAIZ HOME
 
 Instalar o comando "code ." no VSCode MACOS:
 No VSC digite “shift+command+p” + “install 'code’ command path”
+
+"Shift+Command+v" : Markdown preview
+Mostra com fica a saída do md.
+
+"fn+F1 = shift+command+p" - configurações do VsCode
+  
+</br>  
+
+## COMANDOS GIT
+
+"git config --global user.name "nome" - Para configuração básica do Git.
+
+"git status" - Para saber o status do projeto.
+
+"git add" - Adiciona esse arquivo para o Stage (carrinho, arquivos add com git add que estão “verdes” prontos para o commit).
+
+"git rm --cached - Remover arquivo do Stage (git add .) do Git .
+
+"git add ." - Adiciona todos arquivos para o Stage.
+
+"git commit -am “Texto”. Faz o add e o commit ao mesmo tempo.
 
 Criar chagelog.md
 https://keepachangelog.com/pt-BR/1.0.0/
@@ -83,7 +92,7 @@ Feat: inclusão de funcionalidade:
 Docs: Atualização de documentação.
 "git commit –m “docs: atualizando o changelog.md”"
 
-Tipos de mudanças
+**Tipos de mudanças**
 
     Added/Adicionado para novos recursos.
     Changed/Modificado para alterações em recursos existentes.
@@ -92,10 +101,6 @@ Tipos de mudanças
     Fixed/Corrigido para qualquer correção de bug.
     Security/Segurança em caso de vulnerabilidades.
 
-"Shift+Command+v" : Markdown preview
-Mostra com fica a saída do md.
-
-"fn+F1 = shift+command+p" - configurações do VsCode
 
 "git log -n 3" - Lista os 3 últimos logs
 
