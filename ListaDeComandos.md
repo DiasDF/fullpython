@@ -1,5 +1,22 @@
 # Powershell - windows
-
+## Terminologias
+```
+¦   broken bar (U+00A6)
+|   pipe
+/   slash
+\   backslash
+`   backtick
+*   asterisk
+_   underscore
+{}  curly braces
+[]  square brackets
+()  parentheses
+#   hash mark
++   plus sign
+-   minus sign (hyphen)
+.   dot
+!   exclamation mark
+```
 # Terminal MacOs: OBS use o botão "command" no lugar de "ctrl"
 
 "dir" ou "ls" - Listagem de arquivos.
